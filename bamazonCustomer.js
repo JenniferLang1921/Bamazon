@@ -4,23 +4,12 @@ var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require('cli-table');
 
-//constructor function to pass product, stock_quantity and price through as values later
-var Customer = function (productKey, units) {
-    this.productKey = productKey;
-    this.units = units;
-    this.price = function () {
-        cost = this.units * unitPrice;
-        console.log('Total Price = $' + cost);
-    }
-
-}
-
 //connect to mysql database bamazon.sql
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "yourpassword",
     database: "bamazon"
 });
 
