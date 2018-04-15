@@ -10,10 +10,10 @@ Directions:
 
 [![](https://github.com/JenniferLang1921/Bamazon/blob/master/images/Screen%20Shot%202018-04-14%20at%209.18.57%20PM.png)]
 
-Save the mySQL file to your computer and install npm mysql, npm inquirer, and npm cli-table
-
-In node, type node bamazonCustomer.js
-The app will automatically display a table and begin asking you questions about what you would like to buy.
+*Save the mySQL file to your computer and install npm mysql, npm inquirer, and npm cli-table in node
+*In the terminal, type node bamazonCustomer.js
+*The app will automatically display a table and begin asking you questions about what you would like to buy.
+*Type your answers to the questions.
 
 Technologies used: MySQL, node.js, npm msql, npm inquirer, npm cli-table, javascript
 
