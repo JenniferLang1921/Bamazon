@@ -8,5 +8,5 @@ Click on the picture to see a video of this app.
 Directions:
 1.  Enter your mysql password into the password blank between the " " on line
 
-[![](JenniferLang1921/Bamazon/blob/master/images/Screen%20Shot%202018-04-14%20at%209.18.57%20PM.png)]
+[![](https://github.com/JenniferLang1921/Bamazon/blob/master/images/Screen%20Shot%202018-04-14%20at%209.18.57%20PM.png)]
 
