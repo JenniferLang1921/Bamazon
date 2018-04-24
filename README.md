@@ -8,7 +8,7 @@ Click on the picture to see a video of this app.
 Directions:
 1.  Enter your mysql password into the password blank between the " " on line 12 in the bamazonCustomer.js file
 
-[![](https://github.com/JenniferLang1921/Bamazon/blob/master/images/Screen%20Shot%202018-04-14%20at%209.18.57%20PM.png)]
+[![](http://img.youtube.com/vi/EdMFFZIboWA/0.jpg)](http://www.youtube.com/watch?v=EdMFFZIboWA "Bamazon Node.js Application")
 
 2.  Execute the sql file to your computer and npm install
 3.  In the terminal, type node bamazonCustomer.js
