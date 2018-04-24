@@ -21,14 +21,14 @@ connection.connect(function (err) {
 });
 
 function displayProducts() {
-    connection.query('SELECT item_id, department_name, product_name , price FROM products', function (err, result) {
+    connection.query('SELECT item_id, department_name, product_name, price, stock_quantity FROM products', function (err, result) {
         if (err) console.log(err);
 
 
         //create table
         var table = new Table({
             title: ['BAMAZON'],
-            head: ['Item Id#', 'Product Name', 'Price'],
+            head: ['Item Id#', 'Product Name', 'Price', "Stock Quantity"],
             style: {
                 head: ['blue'],
                 compact: false,
@@ -40,7 +40,7 @@ function displayProducts() {
         //loops through each item in the mysql database and pushes that information into a new row in the table
         for (var i = 0; i < result.length; i++) {
             table.push(
-                [result[i].item_id, result[i].product_name, result[i].price]
+                [result[i].item_id, result[i].product_name, result[i].price, result[i].stock_quantity]
             );
         }
         console.log(table.toString());
