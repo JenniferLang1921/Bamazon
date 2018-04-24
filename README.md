@@ -3,12 +3,10 @@ An Amazon-like node application that uses mysql for a database.  Customers can l
 
 Click on the picture to see a video of this app.
 
-[![](http://img.youtube.com/vi/QtDGbdDekKU/0.jpg)](https://youtu.be/i6Iq54QQiGk"Bamazon Node App with MySQL")
-
-Directions:
-1.  Enter your mysql password into the password blank between the " " on line 12 in the bamazonCustomer.js file
 
 [![](http://img.youtube.com/vi/EdMFFZIboWA/0.jpg)](http://www.youtube.com/watch?v=EdMFFZIboWA "Bamazon Node.js Application")
+
+Directions:
 
 2.  Execute the sql file to your computer and npm install
 3.  In the terminal, type node bamazonCustomer.js
